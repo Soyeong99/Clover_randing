@@ -99,10 +99,10 @@ header {
 /* main */
 /* billboard: scss방식 사용시 전처리기 오작동, 스와이퍼는 css3 권장 */
 #billboard {
-  position: relative;
+  max-width: 1280px; margin: 30px auto 0; position: relative; padding: 0 3%;
 }
 #billboard .slide_con {
-  height: 70vh; max-width: 1280px; margin: 50px auto 0; margin: 30px auto 0; overflow: hidden; 
+  width: 100%; height: 70vh; min-height: 40vh; overflow: hidden; 
   box-shadow: 0 2px 10px rgba(148, 148, 148, 0.1); border-radius: 10px;
 }
 #billboard .slide_con .swiper-wrapper {
